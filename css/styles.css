@@ -1,0 +1,111 @@
+form {
+border-color:black;
+border-width: 1px;
+border-style: solid;
+}
+form {
+ border-color: purple;
+
+
+} /*BASE STYLE*/
+section { padding-top: 40px;
+     padding-bottom: 40px;
+    margin-right: 2px;
+    
+} 
+a { color: white;
+}
+a:hover {color: white} 
+a:active{color: white}
+a:visited{ color: white}
+#bg-info {color:#0475ba}
+#btn-info{color:#0475ba}
+/*TEXT HEARDER*/
+#header {background-image: url(../img/header.jpg);
+
+    background-color:blue; 
+    min-height: 700px;
+    color: white;
+    padding-top: 160px;
+    
+}
+#header p { font-size: 2em;
+}
+
+
+}
+form {background-color: white;
+      color:black;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 10px;
+
+
+} /* TEXT P*/
+#header button { color: #0475ba;
+
+}
+
+}
+#students button { margin-top: 10px;
+                    color: blue; 
+} 
+/* SECTION */ 
+text{ color: white;
+    margin-top: 100px;
+}
+#students image { border: 5px;
+}
+/* VOLONTER*/
+#bénévoles text{ color: white;
+    margin-top: 100px;
+}
+#bénévoles image{ border: 5px;
+
+}
+
+/*TEAM*/
+#team text { text-align:center;
+}
+#team img{ height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            margin-bottom: 15px;
+            color: #0475ba;
+        
+}
+#team p{ color: white;
+        margin-top: 100px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-bottom: 15px;
+
+
+}
+#team h4{ color:yellow;
+
+}
+
+/* PIED DE PAGE FOOTER*/
+footer { padding-top: 60px;
+    padding-bottom: 60px;
+}
+ul li{
+    list-style: none;
+}
+ul { margin: 0px;
+
+}
+<script>
+                                const scroll = new smoothscroll( 'a[href*="#"');
+                                const myswiper = new swiper(.swiper-container", 
+                                {speed: 400,
+                                pagination:{
+                                    el:".swiper-pagination",
+                                    type: "bullets",
+                                    clickable: true 
+                                }});
+                            </script>
